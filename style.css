@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+
+/* RESET */
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-style: "Nunito" , sans-serif;
+    min-height: 100vh;
+    background-color: hsla(0, 0%, 30%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+ } 
+
+ .weatherForm{
+    background-color: hsla(0, 0%, 50%, 0.7);
+
+    border-radius: 20px;
+    min-height: 60vh;
+    min-width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+ .location {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ }
+
+ .weekDay {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+
+ .date {
+    font-style: italic;
+    font-weight: bold;
+ }
+
+ .weatherEmoji {
+    font-size: 7rem;
+    margin: 1rem;
+ }
+
+ .tempDisplay {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ }
+
+ .weatherDesc {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ }
+
+ .descContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.1);
+    padding:5px 25%;
+    border-radius: 10px;
+ }
+
+ .humidityDisplay, .windDisplay {
+    font-weight: bold;
+    padding: 0.2rem;
+ }
+
+ button {
+    display: flex;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-weight: bold;
+ }
+
+ button:hover {
+    background-color: hsla(0, 0%, 96%, 0.8);
+    cursor: pointer;
+ }
+
+ .errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
